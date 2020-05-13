@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+
+
+button {
+    margin-left: 10px;
+    height: 70px;
+    width: 65px;
+    background-color: #96a3a0;
+    color: white;
+    border-radius: 9px;
+    font-size: 40px;
+}
+
+button:hover {
+    background-color: white;
+    color: #96a3a0;
+}
+
+input {
+    border: solid #96a3a0;
+    margin-left: 10px;
+    justify-content: center;
+    text-align: center;
+    height: 65px;
+    font-size: 40px;
+    border-radius: 9px;
+    width: 130px;
+}
